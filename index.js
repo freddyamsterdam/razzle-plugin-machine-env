@@ -13,9 +13,9 @@ module.exports = (config, env, webpack, options) => {
       },
       {
         NODE_ENV: process.env.NODE_ENV,
-        PORT: process.env.PORT || config.devServer.port || 3000,
+        PORT: process.env.PORT || (config.devServer ? config.devServer.port : false) || 3000,
         VERBOSE: !!process.env.VERBOSE,
-        HOST: process.env.HOST || config.devServer.host || 'localhost',
+        HOST: process.env.HOST || (config.devServer ? config.devServer.port : false) || 'localhost',
         BUILD_TARGET: "web",
       });
 
