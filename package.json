@@ -1,0 +1,21 @@
+{
+  "name": "razzle-plugin-machine-env",
+  "version": "1.0.0",
+  "description": "Allow Razzle to use machine environment variables during runtime",
+  "main": "index.js",
+  "repository": "git@github.com:ticketinggroup/razzle-plugin-machine-env.git",
+  "author": "Freddy de Noord <hi@freddydenoord.nl>",
+  "license": "MIT",
+  "keywords": [
+    "razzle",
+    "plugin",
+    "razzle plugin",
+    "machine",
+    "enviroment",
+    "variables"
+  ],
+  "bugs": {
+    "url": "https://github.com/ticketinggroup/razzle-plugin-machine-env/issues"
+  },
+  "homepage": "https://github.com/ticketinggroup/razzle-plugin-machine-env#readme"
+}
